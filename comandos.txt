@@ -24,6 +24,7 @@ git remote remove origin url_repositorio
 git remote set-url origin nueva_url_ssh_o_http
 git remote -v (Muestra la url de fetch y la de push)
 git pull origin master (Se trae los cambios hechos en el branch que no estén en local)
+git branch --set-upstream-to=origin/master master (Para un branch que ya fue creado pero que se quiere fusionar con otro nuevo local)
 git pull origin master --allow-unrelated-histories (Lo mismo de arriba pero permite fusionar la historia del local con la del remoto)
 git branch (Muestra ramas actuales en local)
 git branch nombre_nueva_rama (Crea una rama nueva)
