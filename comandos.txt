@@ -19,6 +19,7 @@ git merge otro_branch (Es un commit a la rama destino con la que se esta fusiona
 git config -l (Lista las configuraciones del repositorio en local)
 git config --global propiedad nuevo_valor
 git remote add origin url_repositorio (Agrega un repositorio remoto con su propio historial)
+git push --set-upstream origin master
 git remote remove origin url_repositorio
 git remote set-url origin nueva_url_ssh_o_http
 git remote -v (Muestra la url de fetch y la de push)
